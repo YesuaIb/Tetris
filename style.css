@@ -1,0 +1,52 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: black;
+  border: 2px solid rgb(245, 0, 0);
+  border-radius: 1rem;
+  box-shadow: 0 6px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#pieza2 {
+  margin-left: 35rem;
+  transform: translateY(-620px) translatex(-120%);
+}
+
+#puntos {
+  margin-left: 30rem;
+  transform: translateY(-750px);
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 6px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 0.5rem 0 0 28.5rem;
+  transform: translateY(-750px);
+}
+
+button:hover {
+  background-color: rgb(245, 0, 0);
+  transition: background-color 0.2s ease;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris de Yesua</title>
+    <style>
+        canvas{
+            display: block;
+            margin: 0 auto;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="tetris" width="300" height="600"></canvas>
+    <br>
+    <canvas id="pieza2" width="210" height="120"></canvas>
+    <script src="tetris.js"></script>
+    <div id="puntos"></div>
+    <button onclick="reset()">Reiniciar</button>
+</body>
+</html>
